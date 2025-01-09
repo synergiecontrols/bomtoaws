@@ -128,7 +128,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # URL of your React frontend
+    "https://www.synergiecontrols.com",
+    "http://localhost:3000",
 ]
 
 # Or, allow all origins (not recommended for production):
