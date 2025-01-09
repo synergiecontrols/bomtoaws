@@ -16,6 +16,7 @@ class RegisterSerializer(serializers.ModelSerializer):
             password = validated_data['password'],
   
         )
+        
         return user
 
 
@@ -23,4 +24,5 @@ class RegisterSerializer(serializers.ModelSerializer):
 class ItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = Item
+        print(Item)
         fields = '__all__'
